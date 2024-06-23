@@ -7,6 +7,68 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bitmap\2\00.png" />
+    <None Remove="bitmap\2\01.png" />
+    <None Remove="bitmap\2\02.png" />
+    <None Remove="bitmap\2\03.png" />
+    <None Remove="bitmap\4\00.png" />
+    <None Remove="bitmap\4\01.png" />
+    <None Remove="bitmap\4\02.png" />
+    <None Remove="bitmap\4\03.png" />
+    <None Remove="bitmap\4\04.png" />
+    <None Remove="bitmap\4\05.png" />
+    <None Remove="bitmap\4\06.png" />
+    <None Remove="bitmap\4\07.png" />
+    <None Remove="bitmap\4\08.png" />
+    <None Remove="bitmap\4\09.png" />
+    <None Remove="bitmap\4\0a.png" />
+    <None Remove="bitmap\4\0b.png" />
+    <None Remove="bitmap\4\0c.png" />
+    <None Remove="bitmap\4\0d.png" />
+    <None Remove="bitmap\4\0e.png" />
+    <None Remove="bitmap\4\0f.png" />
+    <None Remove="bitmap\anchor-dark.png" />
+    <None Remove="bitmap\anchor-light.png" />
+    <None Remove="bitmap\anchor-secondary-dark.png" />
+    <None Remove="bitmap\anchor-secondary-light.png" />
+    <None Remove="bitmap\guide-horizontal-dark.png" />
+    <None Remove="bitmap\guide-horizontal-light.png" />
+    <None Remove="bitmap\guide-vertical-dark.png" />
+    <None Remove="bitmap\guide-vertical-light.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="bitmap\2\00.png" />
+    <EmbeddedResource Include="bitmap\2\01.png" />
+    <EmbeddedResource Include="bitmap\2\02.png" />
+    <EmbeddedResource Include="bitmap\2\03.png" />
+    <EmbeddedResource Include="bitmap\4\00.png" />
+    <EmbeddedResource Include="bitmap\4\01.png" />
+    <EmbeddedResource Include="bitmap\4\02.png" />
+    <EmbeddedResource Include="bitmap\4\03.png" />
+    <EmbeddedResource Include="bitmap\4\04.png" />
+    <EmbeddedResource Include="bitmap\4\05.png" />
+    <EmbeddedResource Include="bitmap\4\06.png" />
+    <EmbeddedResource Include="bitmap\4\07.png" />
+    <EmbeddedResource Include="bitmap\4\08.png" />
+    <EmbeddedResource Include="bitmap\4\09.png" />
+    <EmbeddedResource Include="bitmap\4\0a.png" />
+    <EmbeddedResource Include="bitmap\4\0b.png" />
+    <EmbeddedResource Include="bitmap\4\0c.png" />
+    <EmbeddedResource Include="bitmap\4\0d.png" />
+    <EmbeddedResource Include="bitmap\4\0e.png" />
+    <EmbeddedResource Include="bitmap\4\0f.png" />
+    <EmbeddedResource Include="bitmap\anchor-dark.png" />
+    <EmbeddedResource Include="bitmap\anchor-light.png" />
+    <EmbeddedResource Include="bitmap\anchor-secondary-dark.png" />
+    <EmbeddedResource Include="bitmap\anchor-secondary-light.png" />
+    <EmbeddedResource Include="bitmap\guide-horizontal-dark.png" />
+    <EmbeddedResource Include="bitmap\guide-horizontal-light.png" />
+    <EmbeddedResource Include="bitmap\guide-vertical-dark.png" />
+    <EmbeddedResource Include="bitmap\guide-vertical-light.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenCvSharp4.Windows" Version="4.10.0.20240616" />
   </ItemGroup>
 

@@ -12,6 +12,18 @@ namespace cimbar.lib
         int _bitsPerColor;
         bool _dark;
 
+        public SimpleEncoder(int ecc_bytes = -1, int bits_per_symbol = 0, int bits_per_color = -1)
+        {
+            _eccBytes = (ecc_bytes >= 0 ? ecc_bytes : Config.ecc_bytes());
+            _eccBlockSize = (Config.ecc_block_size());
+            _bitsPerSymbol = (bits_per_symbol != 0 ? bits_per_symbol : Config.symbol_bits());
+            _bitsPerColor = (bits_per_color >= 0 ? bits_per_color : Config.color_bits());
+            _dark = (Config.dark());
+            _coupled = (false);
+            _colorMode = (Config.color_mode());
+        }
+
+
         int _colorMode;
         byte _encodeId = 0;
         public Mat encode_next(Stream stream, int canvas_size = 0)
