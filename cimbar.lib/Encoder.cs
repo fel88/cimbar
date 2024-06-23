@@ -1,4 +1,5 @@
-﻿namespace cimbar.lib
+﻿using System.Reflection.Emit;
+namespace cimbar.lib
 {
 
     public class Encoder : SimpleEncoder
@@ -24,6 +25,11 @@
             return i;
         }
 
-        
+
+    }
+    public class polynomial_t
+    {
+        public byte[] coeff;
+        public int order;
     }
 }

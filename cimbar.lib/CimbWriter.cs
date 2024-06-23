@@ -74,16 +74,11 @@ namespace cimbar.lib
             Mat cell = _encoder.encode(bits);
             paste(cell, xy.first, xy.second);
             return true;
-
-
-        }
-
-        
+        }       
 
         private bool done()
         {
             return _positions.done();
-
         }
     }
 }
